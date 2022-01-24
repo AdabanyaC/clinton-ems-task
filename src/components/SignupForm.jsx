@@ -24,6 +24,7 @@ const SignupForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log(firstName, lastName, email, password);
     try {
       const response = await axios.post(
         "https://crudcrud.com/api/01ee6cc8deb14c6c9795288854189484"

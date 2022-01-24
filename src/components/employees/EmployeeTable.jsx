@@ -13,6 +13,8 @@ async function getAllEmployees() {
   }
 }
 
+console.log(getAllEmployees);
+
 const EmployeeTable = () => {
   return (
     <table className="w-full">
